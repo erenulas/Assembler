@@ -18,9 +18,22 @@ is shown below.
 
 The immediate values for ORI, ANDI, and ADDI, and the address value for JUMP can be negative.
 This assembler creates two output files. One of them will be used as input of logisim design 
-and the other one will be used as the input of verilog design.
+and the other one will be used as the input of verilog design.<br/>
+Sample assembly instructions that is compatible with this assembler are added below for you to have a better understanding of the proper assembly syntax.<br/>
+* LD R0,0
+* ADD R2,R1,R0
+* PUSH R3
+* ST R3,10
+* POP R3
+* ADDI R3,R3,12
+* AND R4,R0,R1
+* JUMP 0
+* OR R15,R14,R12
+* ANDI R3,R2,-4
+* ORI R8,R12,1
+* JUMP -5
 
-##How to Use It?
+## How to Use It?
 * Clone the repo.
 * Make sure that the file containing the instructions written in assembly language is in the same location with the code file.
 * Run it!
