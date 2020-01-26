@@ -37,3 +37,7 @@ Sample instructions that is compatible with this assembler are added below for y
 * Clone the repo.
 * Make sure that the file containing the instructions written in assembly language is in the same location with the code file.
 * Run it!
+
+## Status
+
+[![](https://codescene.io/projects/6797/status.svg) Get more details at **codescene.io**.](https://codescene.io/projects/6797/jobs/latest-successful/results)
